@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+.header, .main {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 120px 0 100px 0;
+    border-bottom: 1px solid #cecdce;
+}
+
+.header__title {
+    font-family: Arial;
+    font-size: 52px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #434244;
+    margin: 0;
+}
+
+.header__subtitle {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: normal;
+    color: #434244;
+    margin: 0 0 0 0;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts__item {
+    display:  inline-block;
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.contacts__link {
+    color: #9c9da0;
+    text-decoration: none;
+}
+
+.header__contacts {
+    margin-top: 30px;
+}
+
+.main {
+    padding: 40px 0 505px 0;
+    font-size: 0;
+}
+
+.main__left, .main__right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main__left {
+    width: 425px;
+}
+
+.main__right {
+    box-sizing: border-box;
+    width: 825px;
+    padding-left: 65px;
+}
+
+.main__avatar {
+    width: 425px;
+    height: 350px;
+    margin-bottom: 35px;
+}
+
+.personal-info, .experience-info {
+    font-size: 20px
+}
+
+.personal-info__title, .experience-info__title {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 40px;
+    background-color: #e8c734;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    color: #434244;
+}
+
+.personal-info__content {
+    margin-top: 35px;
+}
+
+.personal-info__text {
+    margin: 0;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 30px;
+    color: #434244;
+    text-align: justify;
+}
+
+.personal-info__text-bold {
+    font-weight: bold;
+}
+
+.experience-info__list {
+    padding-left: 0;
+    font-family: CenturyGotic;
+}
+
+.experience__item {
+    padding-left: 0;
+    list-style: none;
+}
+
+.experience__item-dates {
+    margin: 45px 0 30px 0;
+    padding-left: 0;
+    font-size: 17px;
+    color: #9c9da0;
+    list-style: none;
+}
+
+.experience__item-about {
+    color: #434244;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.experience__item-company-credits {
+    margin-top: 7px;
+    color: #434244;
+}
+
+.experience__item-company-link {
+    color: #434244;
+    text-decoration: none;
+}
+
+.experience__item-description {
+    margin: 35px 0 70px 0;
+    padding-left: 0;
+    font-size: 17px;
+    line-height: 30px;
+    color: #9c9da0;
+}
+
+.experience__item-description-bold {
+    font-weight: bold;
+}
+
+.footer {
+    height: 45px;
+    background-color: #e8c734;
+}
