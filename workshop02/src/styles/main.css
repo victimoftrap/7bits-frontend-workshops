@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+    width: 815px;
+    height: 990px;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.skills-button {
+    width: 218px;
+    height: 75px;
+    display: inline-block;
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 42px;
+    background-color: #e8c734;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #434244;
+}
+
+.progressbar-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 31px;
+    color: #1a1a1a;
+}
+
+.progressbar-item:first-child {
+    margin-top: 41px;
+}
+
+.progressbar-item {
+    margin-top: 80px;
+    position: relative;
+}
+
+.progressbar-item:before {
+    margin-top: 50px;
+    margin-bottom: 18px;
+    content: '';
+    position: absolute;
+    width: 618px;
+    height: 28px;
+    border: 2px solid #e7e7e8; /*#bfc0c1;*/
+}
+
+.progressbar-item:after {
+    margin-top: -20px;
+    content: '';
+    position: absolute;
+    width: calc(622px - 10em );
+    height: 34px;
+    border-bottom: 31px solid #bfc0c1;;
+}
