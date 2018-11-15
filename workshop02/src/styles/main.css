@@ -6,55 +6,54 @@ body {
 
 .main {
     margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .skills-button {
-    width: 218px;
+    width: 200px;
     height: 75px;
-    display: inline-block;
-    margin: 0;
     padding-top: 25px;
     padding-left: 42px;
+    display: inline-block;
     background-color: #e8c734;
-    font-family: 'Roboto', sans-serif;
     font-size: 42px;
     font-weight: bold;
     color: #434244;
 }
 
 .progressbar-list {
+    width: 620px;
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 31px;
     color: #1a1a1a;
 }
 
-.progressbar-item:first-child {
-    margin-top: 41px;
+.progressbar-item {
+    margin-top: 20px;
 }
 
-.progressbar-item {
-    margin-top: 80px;
+.progressbar-block {
+    height: 30px;
+    margin-top: 20px;
+    border: 2px solid #e7e7e8;
     position: relative;
 }
 
-.progressbar-item:before {
-    margin-top: 50px;
-    margin-bottom: 18px;
+.progressbar-block::after {
     content: '';
     position: absolute;
-    width: 618px;
-    height: 28px;
-    border: 2px solid #e7e7e8; /*#bfc0c1;*/
+    height: 34px;
+    border-top: 34px solid #bfc0c1;
+    margin-top: -2px;
+    margin-left: -1px;
 }
 
-.progressbar-item:after {
-    margin-top: -20px;
-    content: '';
-    position: absolute;
-    width: calc(622px - 10em );
-    height: 34px;
-    border-bottom: 31px solid #bfc0c1;;
+.creativity-progress::after, .organization-progress::after, .teamplayer-progress::after {
+    width: 85%;
+}
+
+.communication-progress::after, .teamwork-progress::after, .leadership-progress::after {
+    width: 75%;
 }
