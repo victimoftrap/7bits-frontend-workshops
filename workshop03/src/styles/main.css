@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.band-page {
+    max-width: 1222px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.band-page__title {
+    font-family: 'Dosis', sans-sherif;
+    font-style: bold;
+    font-size: 50px;
+}
+
+.discography, .band-page__credits {
+    font-family: 'Open+Sans', sans-sherif;
+    font-style: bold;
+    font-size: 14px;
+}
+
+.album__name {
+    font-style: 700;
+    
+}
