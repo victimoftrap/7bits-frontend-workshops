@@ -134,5 +134,19 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+    .band-page__header {
+        max-width: 650px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    .band-page__credits {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .band-page__footer {
+        margin-top: -500px;
+        height: 400px;
+    }
 }
