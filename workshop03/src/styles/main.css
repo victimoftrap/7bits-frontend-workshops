@@ -1,28 +1,138 @@
 body {
     margin: 0;
+    font-family: 'Open+Sans', sans-serif;
 }
 
 .band-page {
     max-width: 1222px;
     width: 100%;
-    margin: 0 auto;
+    margin: 170px auto;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #fdfdfd;
+}
+
+.band-page__header {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .band-page__title {
-    font-family: 'Dosis', sans-sherif;
-    font-style: bold;
+    font-family: 'Dosis', sans-serif;
     font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 6px;
 }
 
-.discography, .band-page__credits {
-    font-family: 'Open+Sans', sans-sherif;
-    font-style: bold;
+.band-page__credits {
+    margin: 0;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    line-height: 25px;
     font-size: 14px;
+    color: #798285;
+}
+
+.band-page__discography {
+    list-style: none;
+    display: inline-block;
+}
+
+.discography {
+    margin: 60px auto 0;
+    padding: 0;
+    max-width: 1220px;
+    width: 100%;
+}
+
+.discography__album {
+    margin-top: 100px;
+}
+
+.album__data {
+    max-width: 530px;
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+
+.album__date {
+    font-size: 14px;
+    font-weight: 700;
+    color: #798285;
+    margin-bottom: 25px;
+}
+
+.album__date::after {
+    content: '';
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-left: -40px;
+    margin-top: 30px;
 }
 
 .album__name {
-    font-style: 700;
-    
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+
+.promo {
+    max-width: 670px;
+    width: 100%;
+    margin: 0 auto 0 530px;
+}
+
+.promo__title {
+    font-size: 23px;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.promo__content {
+    margin: 0;
+    font-size: 14px;
+    color: #acacac;
+    line-height: 24px;
+    text-align: left;
+}
+
+.promo__play-button {
+    margin-top: 30px;
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button__text {
+    text-align: center;
+    cursor: pointer;
+    width: 196px;
+    height: 56px;
+    border-width: 0;
+    border-radius: 0;
+    color: white;
+    background-color: black;
+}
+
+.band-page__footer {
+    margin-top: -460px;
+    height: 787px;
+    max-width: 2000px;
+    width: 100%;
+    background-image: url("../images/background.png");
+    background-position: center;
+}
+
+@media screen and (max-width: 750px) {
+
 }
