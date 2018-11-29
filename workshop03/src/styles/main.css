@@ -7,7 +7,6 @@ body {
     max-width: 1222px;
     width: 100%;
     margin: 170px auto;
-    box-sizing: border-box;
     background-color: #fdfdfd;
 }
 
@@ -50,13 +49,16 @@ body {
 
 .discography__album {
     margin-top: 100px;
+    display: flex;
+    flex-direction: row;
 }
 
 .album__data {
-    max-width: 530px;
+    /*max-width: 530px;
     width: 100%;
     float: left;
-    position: absolute;
+    position: absolute;*/
+    width: 45%;
 }
 
 .album__date {
@@ -70,7 +72,8 @@ body {
     content: '';
     position: absolute;
     max-width: 500px;
-    width: 100%;
+    /*width: 100%;*/
+    width: 45%;
     border-bottom: 1px solid black;
     margin-left: -40px;
     margin-top: 30px;
@@ -83,10 +86,14 @@ body {
     text-transform: uppercase;
 }
 
+.album__promo {
+    /*padding-left: 50%;*/
+}
+
 .promo {
-    max-width: 670px;
-    width: 100%;
-    margin: 0 auto 0 530px;
+    /*max-width: 670px;
+    width: 100%;*/
+    width: 55%;
 }
 
 .promo__title {
@@ -129,8 +136,7 @@ body {
     height: 787px;
     max-width: 2000px;
     width: 100%;
-    background-image: url("../images/background.png");
-    background-position: center;
+    background: url("../images/background.png") center;
 }
 
 @media screen and (max-width: 750px) {
@@ -146,7 +152,43 @@ body {
     }
 
     .band-page__footer {
-        margin-top: -500px;
+        margin-top: -250px;
         height: 400px;
+    }
+
+    .discography__album {
+        max-width: 650px;
+        width: 90%;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .album__date::after {
+        max-width: 650px;
+        width: 90%;
+    }
+
+    .promo {
+        max-width: 650px;
+        width: 100%;
+    }
+
+    .promo__title {
+        max-width: 650px;
+        width: 90%;
+        text-align: justify;
+        margin-top: 30px;
+    }
+
+    .promo__content {
+        text-align: justify;
+    }
+
+    .promo__play-button {
+        /*margin-left: 30%;*/
+        display: flex;
+        align-content: center;
+        justify-content: center;
     }
 }
