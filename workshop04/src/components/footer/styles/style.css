@@ -1,0 +1,19 @@
+.footer {
+    margin-top: 245px;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.footer-menu {
+    padding: 0;
+    margin-top: 45px;
+    margin-left: 254px;
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-menu-item {
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+}

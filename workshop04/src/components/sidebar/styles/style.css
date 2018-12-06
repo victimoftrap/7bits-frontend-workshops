@@ -1,0 +1,53 @@
+.sidebar {
+    margin-top: -1124px;
+    margin-left: 788px;
+}
+
+.sidebar-image {
+    width: 272px;
+    height: 178px;
+}
+
+.sidebar-title {
+    color: #626262;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.sidebar-content {
+    color: #626262;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.top-posts-list {
+    padding-left: 15px;
+}
+
+.top-posts-title {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.post-item {
+    color: #b4ad9e;
+}
+
+.post-title {
+    margin-top: 28px;
+    font-size: 15px;
+}
+
+.post-title-text {
+    color: #626262;
+}
+
+.post-comments {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 13px;
+    margin-top: 15px;
+}

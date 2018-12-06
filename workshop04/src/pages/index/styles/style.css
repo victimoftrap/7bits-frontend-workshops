@@ -1,0 +1,33 @@
+.main {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.main-post-theme {
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: ArialMT sans-serif;
+    font-size: 14px;
+}
+
+.main-post-title {
+    margin-top: 19px;
+    font-family: ArialMT sans-serif;
+    font-size: 30px;
+    color: #626262;
+}
+
+.main-post-content-first, .main-post-content-last {
+    display: inline-block;
+    margin-top: 26px;
+    font-family: ArialMT sans-serif;
+    font-size: 14px;
+    color: #626262;
+    line-height: 22px;
+}
+
+.main-post-image {
+    width: 660px;
+    height: auto;
+    overflow: hidden;
+}
