@@ -1,6 +1,7 @@
 .main {
-    width: 1060px;
-    margin: 0 auto;
+    width: 670px;
+    margin-left: 22%;
+    float: left;
 }
 
 .main-post-theme {

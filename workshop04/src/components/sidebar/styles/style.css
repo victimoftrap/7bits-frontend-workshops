@@ -1,6 +1,9 @@
 .sidebar {
-    margin-top: -1124px;
-    margin-left: 788px;
+    display: inline-block;
+    width: 270px;
+    float: right;
+    margin: 0;
+    margin-right: 26%;
 }
 
 .sidebar-image {

@@ -1,0 +1,20 @@
+{
+  "name": "workshop04",
+  "version": "1.0.0",
+  "description": "sample text",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-rename": "^1.4.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-concat": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victimoftrap",
+  "license": "ISC"
+}

@@ -1,8 +1,7 @@
 .header {
-    margin: 0;
-    width: 1060px;
-    height: 675px;
-    /*background-image: url("../images/cover.png");*/
+    margin: 0 auto;
+    width: 1200px;
+    margin-bottom: 50px;
 }
 
 .header-title {
@@ -31,4 +30,9 @@
 .header-link-title {
     font-family: ArialMT serif;
     font-size: 14px;
+}
+
+.header-cover-image {
+    margin: 0;
+    width: 1060px;
 }
