@@ -1,0 +1,23 @@
+.footer {
+  background-color: $color-blue;
+  padding: 45px 0;
+  font-family: $font-default;
+
+  &__content {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: $color-white;
+    text-align: center;
+  }
+  &__logo {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: $color-dark-blue;
+  }
+}

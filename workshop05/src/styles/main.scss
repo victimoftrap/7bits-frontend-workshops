@@ -1,0 +1,14 @@
+/* Variables */
+@import "_variables";
+
+/* Layout */
+@import "../layouts/base/style";
+@import "../layouts/base/components/header/style";
+@import "../layouts/base/components/footer/style";
+
+/* Pages */
+@import "../pages/index/style";
+
+/* Components */
+@import "../components/article/style";
+@import "../components/spinner/style";
