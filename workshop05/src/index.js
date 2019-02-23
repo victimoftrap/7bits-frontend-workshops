@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
     root.append(indexTemplate());
     const content = $('.content');
 
+    content.append(spinnerTemplate);
+
     let dataPromise = [];
     urls.forEach(url => {
         dataPromise.push(
@@ -28,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 })
         )
     });
+
+    $('div.spinner').remove();
 
     Promise.all(dataPromise)
         .then(prom => {
